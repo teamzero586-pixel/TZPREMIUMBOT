@@ -1,0 +1,39 @@
+{
+  "ownerNumber": "923497081205",
+  "runtime": {
+    "freeMode": false,
+    "pairingEnabled": true
+  },
+  "users": {
+    "923497081205": {
+      "sudoList": [
+        "923497081205@s.whatsapp.net"
+      ],
+      "tagAudioPath": "database/DevWeed.mp3",
+      "antilink": true,
+      "response": true,
+      "autoreact": false,
+      "prefix": ".",
+      "reaction": "⏳️",
+      "welcome": false,
+      "record": true,
+      "type": false,
+      "publicMode": false
+    },
+    "923497081205": {
+      "sudoList": [
+        "923497081205@s.whatsapp.net"
+      ],
+      "tagAudioPath": "database/DevWeed.mp3",
+      "antilink": true,
+      "response": true,
+      "autoreact": false,
+      "prefix": ".",
+      "reaction": "⏳️",
+      "welcome": false,
+      "record": true,
+      "type": false,
+      "publicMode": false
+    }
+  }
+}

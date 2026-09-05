@@ -1,0 +1,13 @@
+import { encryptOwners } from '../../utils/LuminaCreator.js'
+
+const owners = String(process.env.WHATSAPP_OWNER_NUMBERS || '')
+  .split(',')
+  .map((value) => value.replace(/\D/g, ''))
+  .filter((value) => value.length >= 7)
+
+if (owners.length) {
+  await encryptOwners(owners)
+  console.log(`Encrypted ${owners.length} WhatsApp owner number(s).`)
+} else {
+  console.log('Set WHATSAPP_OWNER_NUMBERS before running this helper.')
+}

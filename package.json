@@ -1,0 +1,34 @@
+{
+  "name": "AMAN ULLAH bug MD",
+  "version": "1.0.0",
+  "description": "AMAN ULLAH bug Md WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --check index.js && node --check telegram/bot.js && node --check events/messageHandler.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "automation",
+    "ai",
+    "lumina",
+    "md"
+  ],
+  "dependencies": {
+    "baileys": "npm:baileys@latest",
+    "axios": "^1.7.7",
+    "axios-retry": "^3.9.1",
+    "pino": "^8.18.0",
+    "file-type": "^19.0.0",
+    "form-data": "^4.0.1",
+    "fluent-ffmpeg": "latest",
+    "sharp": "latest"
+  },
+  "author": "𝚒𝚜 rizo 𝚃𝚎𝚌𝚑",
+  "license": "333𝙳𝚎𝚟"
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "botToken": "8429352996:AAE4fMdzPnRrqS3y_zlKdIwlW_OKQgnvKDo",
+  "ownerId": "8265653257",
+  "ownerUsername": "rizohacker1",
+  "pollingTimeoutSeconds": 25,
+  "membership": {
+    "groups": [],
+    "channels": [
+      {
+        "title": "SR KING TEAM",
+        "url": "https://t.me/srkingteam001",
+        "chatId": "@srkingteam001"
+      },
+      {
+        "title": "SR LEADER",
+        "url": "https://t.me/srleader5646",
+        "chatId": "@srleader5646"
+      }
+    ]
+  }
+}
